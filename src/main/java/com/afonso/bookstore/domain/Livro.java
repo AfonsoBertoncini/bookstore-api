@@ -25,7 +25,7 @@ public class Livro implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private String nome_autor, texto, titulo;
+	private String nome_autor, texto, titulo        ;
 	
 	
 	@ManyToOne
